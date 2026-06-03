@@ -1,7 +1,7 @@
 """
-Módulo: productos.py
-Descripción: CRUD completo de productos e inventario para el sistema POS.
-Autores: Sergio Huinac / daniel adrian bartolo francisc
+Modulo: productos.py
+Descripcion: CRUD completo de productos e inventario para el sistema POS.
+Autores: [Tu nombre] / [Nombre companero]
 Fecha: 2026
 """
 
@@ -15,8 +15,6 @@ from modulos.utilidades import (
 ARCHIVO = 'productos'
 
 
-# ─── Carga y guardado ────────────
-
 def cargar_productos():
     """Lee y devuelve la lista de productos desde el JSON."""
     return leer_json(ARCHIVO)
@@ -27,11 +25,9 @@ def guardar_productos(productos):
     escribir_json(ARCHIVO, productos)
 
 
-# ─── Búsqueda ──────
-
 def buscar_por_codigo(codigo, productos=None):
     """
-    Busca un producto exacto por código (case-insensitive).
+    Busca un producto exacto por codigo (case-insensitive).
     Recibe: codigo (str), productos (list) opcional.
     Devuelve: dict del producto o None.
     """
@@ -46,7 +42,7 @@ def buscar_por_codigo(codigo, productos=None):
 
 def buscar_productos(termino):
     """
-    Busca productos por código o nombre (parcial, case-insensitive).
+    Busca productos por codigo o nombre (parcial, case-insensitive).
     Recibe: termino (str).
     Devuelve: lista de productos coincidentes.
     """
@@ -54,8 +50,6 @@ def buscar_productos(termino):
     t = termino.lower()
     return [p for p in productos if t in p['codigo'].lower() or t in p['nombre'].lower()]
 
-
-# ─── Presentación ───────────────
 
 def imprimir_tabla(productos):
     """
@@ -65,54 +59,47 @@ def imprimir_tabla(productos):
     if not productos:
         print("  No hay productos para mostrar.")
         return
-    encabezado = f"  {'CÓDIGO':<8} {'NOMBRE':<25} {'CATEGORÍA':<15} {'PRECIO':>10} {'STOCK':>6} {'MÍN':>5}"
-    print(encabezado)
+    print(f"  {'CODIGO':<8} {'NOMBRE':<25} {'CATEGORIA':<16} {'PRECIO':>10} {'STOCK':>6} {'MIN':>5}")
     separador('-')
     for p in productos:
-        alerta = " [!]" if p['stock'] <= p['stock_minimo'] else ""
+        alerta = " [bajo]" if p['stock'] <= p['stock_minimo'] else ""
         print(
-            f"  {p['codigo']:<8} {p['nombre']:<25} {p['categoria']:<15} "
+            f"  {p['codigo']:<8} {p['nombre']:<25} {p['categoria']:<16} "
             f"{formatear_moneda(p['precio']):>10} {p['stock']:>6} {p['stock_minimo']:>5}{alerta}"
         )
 
 
-# ─── Operaciones CRUD ──────────────────
-
 def registrar_producto():
-    """Solicita datos y registra un nuevo producto único en el inventario."""
+    """Solicita datos y registra un nuevo producto unico en el inventario."""
     limpiar_pantalla()
     titulo("Registrar Nuevo Producto")
     productos = cargar_productos()
 
     while True:
-        codigo = pedir_texto("  Código (ej: P001): ").upper()
+        codigo = pedir_texto("  Codigo (ej: P001): ").upper()
         if buscar_por_codigo(codigo, productos):
-            print(f"  [!] Ya existe un producto con el código '{codigo}'.")
+            print(f"  [!] Ya existe un producto con el codigo '{codigo}'.")
         else:
             break
 
-    nombre = pedir_texto("  Nombre del producto: ")
-    categoria = pedir_texto("  Categoría: ")
-    precio = pedir_flotante("  Precio unitario (Q): ", minimo=0.01)
-    stock = pedir_entero("  Stock inicial: ", minimo=0)
-    stock_minimo = pedir_entero("  Stock mínimo (alerta): ", minimo=0)
+    nombre    = pedir_texto("  Nombre del producto: ")
+    categoria = pedir_texto("  Categoria: ")
+    precio    = pedir_flotante("  Precio unitario (Q): ", minimo=0.01)
+    stock     = pedir_entero("  Stock inicial: ", minimo=0)
+    stock_min = pedir_entero("  Stock minimo (alerta): ", minimo=0)
 
     nuevo = {
-        "codigo": codigo,
-        "nombre": nombre,
-        "categoria": categoria,
-        "precio": round(precio, 2),
-        "stock": stock,
-        "stock_minimo": stock_minimo
+        "codigo": codigo, "nombre": nombre, "categoria": categoria,
+        "precio": round(precio, 2), "stock": stock, "stock_minimo": stock_min
     }
 
     print(f"\n  Producto: {nombre} | Precio: {formatear_moneda(precio)} | Stock: {stock}")
-    if confirmar("  ¿Guardar producto? (s/n): "):
+    if confirmar("  Guardar producto? (s/n): "):
         productos.append(nuevo)
         guardar_productos(productos)
-        print(f"  [OK] Producto '{nombre}' registrado correctamente.")
+        print(f"  OK - Producto '{nombre}' registrado.")
     else:
-        print("  Operación cancelada.")
+        print("  Operacion cancelada.")
     pausar()
 
 
@@ -127,10 +114,10 @@ def listar_productos():
 
 
 def buscar_producto_menu():
-    """Menú de búsqueda de producto por código o nombre."""
+    """Menu de busqueda de producto por codigo o nombre."""
     limpiar_pantalla()
     titulo("Buscar Producto")
-    termino = pedir_texto("  Ingresa código o nombre a buscar: ")
+    termino = pedir_texto("  Ingresa codigo o nombre a buscar: ")
     resultados = buscar_productos(termino)
     if resultados:
         print(f"\n  Se encontraron {len(resultados)} resultado(s):\n")
@@ -141,27 +128,27 @@ def buscar_producto_menu():
 
 
 def actualizar_precio():
-    """Actualiza el precio de un producto por código."""
+    """Actualiza el precio de un producto por codigo."""
     limpiar_pantalla()
     titulo("Actualizar Precio de Producto")
     productos = cargar_productos()
-    codigo = pedir_texto("  Código del producto: ").upper()
+    codigo = pedir_texto("  Codigo del producto: ").upper()
     producto = buscar_por_codigo(codigo, productos)
 
     if not producto:
-        print(f"  [!] No se encontró el producto '{codigo}'.")
+        print(f"  [!] No se encontro el producto '{codigo}'.")
         pausar()
         return
 
     print(f"  Producto: {producto['nombre']} | Precio actual: {formatear_moneda(producto['precio'])}")
     nuevo_precio = pedir_flotante("  Nuevo precio (Q): ", minimo=0.01)
 
-    if confirmar(f"  ¿Actualizar precio a {formatear_moneda(nuevo_precio)}? (s/n): "):
+    if confirmar(f"  Actualizar precio a {formatear_moneda(nuevo_precio)}? (s/n): "):
         producto['precio'] = round(nuevo_precio, 2)
         guardar_productos(productos)
-        print("  [OK] Precio actualizado correctamente.")
+        print("  OK - Precio actualizado.")
     else:
-        print("  Operación cancelada.")
+        print("  Operacion cancelada.")
     pausar()
 
 
@@ -170,11 +157,11 @@ def ajustar_stock():
     limpiar_pantalla()
     titulo("Ajustar Stock")
     productos = cargar_productos()
-    codigo = pedir_texto("  Código del producto: ").upper()
+    codigo = pedir_texto("  Codigo del producto: ").upper()
     producto = buscar_por_codigo(codigo, productos)
 
     if not producto:
-        print(f"  [!] No se encontró el producto '{codigo}'.")
+        print(f"  [!] No se encontro el producto '{codigo}'.")
         pausar()
         return
 
@@ -188,17 +175,17 @@ def ajustar_stock():
     nuevo_stock = producto['stock'] + cantidad
 
     if nuevo_stock < 0:
-        print(f"  [!] Stock insuficiente. Stock actual: {producto['stock']}, ajuste: {cantidad}.")
+        print(f"  [!] Stock insuficiente. Stock actual: {producto['stock']}.")
         pausar()
         return
 
     print(f"  Motivo: {motivo} | Stock nuevo: {nuevo_stock}")
-    if confirmar("  ¿Confirmar ajuste? (s/n): "):
+    if confirmar("  Confirmar ajuste? (s/n): "):
         producto['stock'] = nuevo_stock
         guardar_productos(productos)
-        print(f"  [OK] Stock ajustado. Nuevo stock de '{producto['nombre']}': {nuevo_stock}.")
+        print(f"  OK - Stock actualizado a {nuevo_stock}.")
     else:
-        print("  Operación cancelada.")
+        print("  Operacion cancelada.")
     pausar()
 
 
@@ -210,11 +197,11 @@ def eliminar_producto(ventas_existentes=None):
     limpiar_pantalla()
     titulo("Eliminar Producto")
     productos = cargar_productos()
-    codigo = pedir_texto("  Código del producto a eliminar: ").upper()
+    codigo = pedir_texto("  Codigo del producto a eliminar: ").upper()
     producto = buscar_por_codigo(codigo, productos)
 
     if not producto:
-        print(f"  [!] No se encontró el producto '{codigo}'.")
+        print(f"  [!] No se encontro el producto '{codigo}'.")
         pausar()
         return
 
@@ -222,39 +209,37 @@ def eliminar_producto(ventas_existentes=None):
         for venta in ventas_existentes:
             for item in venta.get('items', []):
                 if item['codigo'].upper() == codigo:
-                    print(f"  [!] No se puede eliminar: '{producto['nombre']}' tiene ventas registradas.")
+                    print(f"  [!] No se puede eliminar: tiene ventas registradas.")
                     pausar()
                     return
 
     print(f"  Producto a eliminar: {producto['nombre']} | Stock: {producto['stock']}")
-    if confirmar("  ¿Eliminar definitivamente? (s/n): "):
+    if confirmar("  Eliminar definitivamente? (s/n): "):
         productos.remove(producto)
         guardar_productos(productos)
-        print(f"  [OK] Producto '{producto['nombre']}' eliminado.")
+        print(f"  OK - Producto '{producto['nombre']}' eliminado.")
     else:
-        print("  Operación cancelada.")
+        print("  Operacion cancelada.")
     pausar()
 
 
 def mostrar_stock_bajo():
-    """Muestra productos cuyo stock actual es menor o igual al stock mínimo."""
+    """Muestra productos cuyo stock actual es menor o igual al stock minimo."""
     limpiar_pantalla()
-    titulo("Productos con Stock Bajo [!]")
+    titulo("Productos con Stock Bajo")
     productos = cargar_productos()
     bajos = [p for p in productos if p['stock'] <= p['stock_minimo']]
     if bajos:
         imprimir_tabla(bajos)
         print(f"\n  Total en alerta: {len(bajos)} producto(s).")
     else:
-        print("  [OK] Todos los productos tienen stock suficiente.")
+        print("  Todos los productos tienen stock suficiente.")
     pausar()
 
 
-# ─── Menú del módulo ─────────
-
 def menu_productos(ventas):
     """
-    Despliega el submenú del módulo de productos.
+    Despliega el submenu del modulo de productos.
     Recibe: ventas (list) para validar eliminaciones.
     """
     opciones = [
@@ -268,7 +253,7 @@ def menu_productos(ventas):
     ]
     while True:
         limpiar_pantalla()
-        opcion = mostrar_menu(opciones, "MÓDULO DE PRODUCTOS")
+        opcion = mostrar_menu(opciones, "MODULO DE PRODUCTOS")
         if opcion == 0:
             break
         elif opcion == 1:
@@ -285,3 +270,4 @@ def menu_productos(ventas):
             eliminar_producto(ventas)
         elif opcion == 7:
             mostrar_stock_bajo()
+

@@ -1,32 +1,242 @@
 [
-  { "codigo": "P001", "nombre": "Coca Cola 2L", "categoria": "Bebidas", "precio": 16.00, "stock": 22, "stock_minimo": 10 },
-  { "codigo": "P002", "nombre": "Tortrix", "categoria": "Snacks", "precio": 3.00, "stock": 25, "stock_minimo": 15 },
-  { "codigo": "P003", "nombre": "Pan francés", "categoria": "Panadería", "precio": 1.00, "stock": 40, "stock_minimo": 20 },
-  { "codigo": "P004", "nombre": "Huevos docena", "categoria": "Lácteos", "precio": 22.00, "stock": 10, "stock_minimo": 8 },
-  { "codigo": "P005", "nombre": "Azúcar 1lb", "categoria": "Granos básicos", "precio": 6.50, "stock": 18, "stock_minimo": 12 },
-  { "codigo": "P006", "nombre": "Arroz 1lb", "categoria": "Granos básicos", "precio": 5.00, "stock": 30, "stock_minimo": 12 },
-  { "codigo": "P007", "nombre": "Frijol negro 1lb", "categoria": "Granos básicos", "precio": 7.50, "stock": 14, "stock_minimo": 12 },
-  { "codigo": "P008", "nombre": "Aceite vegetal 1L", "categoria": "Uso diario", "precio": 18.00, "stock": 9, "stock_minimo": 15 },
-  { "codigo": "P009", "nombre": "Agua pura", "categoria": "Bebidas", "precio": 5.00, "stock": 50, "stock_minimo": 10 },
-  { "codigo": "P010", "nombre": "Leche en bolsa", "categoria": "Lácteos", "precio": 8.00, "stock": 16, "stock_minimo": 8 },
-  { "codigo": "P011", "nombre": "Maseca 1kg", "categoria": "Granos básicos", "precio": 11.00, "stock": 20, "stock_minimo": 12 },
-  { "codigo": "P012", "nombre": "Pollo por libra", "categoria": "Carnes", "precio": 14.00, "stock": 8, "stock_minimo": 8 },
-  { "codigo": "P013", "nombre": "Jabón para ropa", "categoria": "Limpieza", "precio": 12.50, "stock": 13, "stock_minimo": 9 },
-  { "codigo": "P014", "nombre": "Papel higiénico", "categoria": "Higiene personal", "precio": 20.00, "stock": 11, "stock_minimo": 8 },
-  { "codigo": "P015", "nombre": "Galletas Ritz", "categoria": "Snacks", "precio": 6.00, "stock": 17, "stock_minimo": 15 },
-  { "codigo": "P016", "nombre": "Chicles", "categoria": "Snacks", "precio": 1.50, "stock": 10, "stock_minimo": 25 },
-  { "codigo": "P017", "nombre": "Sopa instantánea", "categoria": "Comida rápida", "precio": 4.50, "stock": 22, "stock_minimo": 10 },
-  { "codigo": "P018", "nombre": "Atún en lata", "categoria": "Enlatados", "precio": 10.00, "stock": 15, "stock_minimo": 10 },
-  { "codigo": "P019", "nombre": "Shampoo pequeño", "categoria": "Higiene personal", "precio": 14.00, "stock": 9, "stock_minimo": 8 },
-  { "codigo": "P020", "nombre": "Pasta dental", "categoria": "Higiene personal", "precio": 15.00, "stock": 12, "stock_minimo": 8 },
-  { "codigo": "P021", "nombre": "Sal 1lb", "categoria": "Condimentos", "precio": 3.00, "stock": 28, "stock_minimo": 8 },
-  { "codigo": "P022", "nombre": "Café instantáneo", "categoria": "Bebidas", "precio": 28.00, "stock": 8, "stock_minimo": 10 },
-  { "codigo": "P023", "nombre": "Mayonesa pequeña", "categoria": "Condimentos", "precio": 9.00, "stock": 19, "stock_minimo": 8 },
-  { "codigo": "P024", "nombre": "Ketchup", "categoria": "Condimentos", "precio": 8.00, "stock": 14, "stock_minimo": 8 },
-  { "codigo": "P025", "nombre": "Velas paquete", "categoria": "Uso diario", "precio": 6.00, "stock": 10, "stock_minimo": 15 },
-  { "codigo": "P026", "nombre": "Fósforos", "categoria": "Uso diario", "precio": 2.00, "stock": 35, "stock_minimo": 15 },
-  { "codigo": "P027", "nombre": "Agua gaseosa pequeña", "categoria": "Bebidas", "precio": 4.00, "stock": 24, "stock_minimo": 10 },
-  { "codigo": "P028", "nombre": "Chocolate en polvo", "categoria": "Bebidas", "precio": 13.00, "stock": 11, "stock_minimo": 10 },
-  { "codigo": "P029", "nombre": "Sardinas en lata", "categoria": "Enlatados", "precio": 8.50, "stock": 18, "stock_minimo": 10 },
-  { "codigo": "P030", "nombre": "Detergente en polvo", "categoria": "Limpieza", "precio": 18.50, "stock": 9, "stock_minimo": 9 }
+  {
+    "codigo": "P001",
+    "nombre": "Coca Cola 2L",
+    "categoria": "Bebidas",
+    "precio": 16.0,
+    "stock": 22,
+    "stock_minimo": 10
+  },
+  {
+    "codigo": "P002",
+    "nombre": "Tortrix",
+    "categoria": "Snacks",
+    "precio": 3.0,
+    "stock": 17,
+    "stock_minimo": 15
+  },
+  {
+    "codigo": "P003",
+    "nombre": "Pan francés",
+    "categoria": "Panadería",
+    "precio": 1.0,
+    "stock": 20,
+    "stock_minimo": 20
+  },
+  {
+    "codigo": "P004",
+    "nombre": "Huevos docena",
+    "categoria": "Lácteos",
+    "precio": 22.0,
+    "stock": 10,
+    "stock_minimo": 8
+  },
+  {
+    "codigo": "P005",
+    "nombre": "Azúcar 1lb",
+    "categoria": "Granos básicos",
+    "precio": 6.5,
+    "stock": 18,
+    "stock_minimo": 12
+  },
+  {
+    "codigo": "P006",
+    "nombre": "Arroz 1lb",
+    "categoria": "Granos básicos",
+    "precio": 5.0,
+    "stock": 30,
+    "stock_minimo": 12
+  },
+  {
+    "codigo": "P007",
+    "nombre": "Frijol negro 1lb",
+    "categoria": "Granos básicos",
+    "precio": 7.5,
+    "stock": 14,
+    "stock_minimo": 12
+  },
+  {
+    "codigo": "P008",
+    "nombre": "Aceite vegetal 1L",
+    "categoria": "Uso diario",
+    "precio": 18.0,
+    "stock": 9,
+    "stock_minimo": 15
+  },
+  {
+    "codigo": "P009",
+    "nombre": "Agua pura",
+    "categoria": "Bebidas",
+    "precio": 5.0,
+    "stock": 50,
+    "stock_minimo": 10
+  },
+  {
+    "codigo": "P010",
+    "nombre": "Leche en bolsa",
+    "categoria": "Lácteos",
+    "precio": 8.0,
+    "stock": 16,
+    "stock_minimo": 8
+  },
+  {
+    "codigo": "P011",
+    "nombre": "Maseca 1kg",
+    "categoria": "Granos básicos",
+    "precio": 11.0,
+    "stock": 20,
+    "stock_minimo": 12
+  },
+  {
+    "codigo": "P012",
+    "nombre": "Pollo por libra",
+    "categoria": "Carnes",
+    "precio": 14.0,
+    "stock": 8,
+    "stock_minimo": 8
+  },
+  {
+    "codigo": "P013",
+    "nombre": "Jabón para ropa",
+    "categoria": "Limpieza",
+    "precio": 12.5,
+    "stock": 13,
+    "stock_minimo": 9
+  },
+  {
+    "codigo": "P014",
+    "nombre": "Papel higiénico",
+    "categoria": "Higiene personal",
+    "precio": 20.0,
+    "stock": 11,
+    "stock_minimo": 8
+  },
+  {
+    "codigo": "P015",
+    "nombre": "Galletas Ritz",
+    "categoria": "Snacks",
+    "precio": 6.0,
+    "stock": 17,
+    "stock_minimo": 15
+  },
+  {
+    "codigo": "P016",
+    "nombre": "Chicles",
+    "categoria": "Snacks",
+    "precio": 1.5,
+    "stock": 10,
+    "stock_minimo": 25
+  },
+  {
+    "codigo": "P017",
+    "nombre": "Sopa instantánea",
+    "categoria": "Comida rápida",
+    "precio": 4.5,
+    "stock": 22,
+    "stock_minimo": 10
+  },
+  {
+    "codigo": "P018",
+    "nombre": "Atún en lata",
+    "categoria": "Enlatados",
+    "precio": 10.0,
+    "stock": 15,
+    "stock_minimo": 10
+  },
+  {
+    "codigo": "P019",
+    "nombre": "Shampoo pequeño",
+    "categoria": "Higiene personal",
+    "precio": 14.0,
+    "stock": 9,
+    "stock_minimo": 8
+  },
+  {
+    "codigo": "P020",
+    "nombre": "Pasta dental",
+    "categoria": "Higiene personal",
+    "precio": 15.0,
+    "stock": 12,
+    "stock_minimo": 8
+  },
+  {
+    "codigo": "P021",
+    "nombre": "Sal 1lb",
+    "categoria": "Condimentos",
+    "precio": 3.0,
+    "stock": 28,
+    "stock_minimo": 8
+  },
+  {
+    "codigo": "P022",
+    "nombre": "Café instantáneo",
+    "categoria": "Bebidas",
+    "precio": 28.0,
+    "stock": 8,
+    "stock_minimo": 10
+  },
+  {
+    "codigo": "P023",
+    "nombre": "Mayonesa pequeña",
+    "categoria": "Condimentos",
+    "precio": 9.0,
+    "stock": 19,
+    "stock_minimo": 8
+  },
+  {
+    "codigo": "P024",
+    "nombre": "Ketchup",
+    "categoria": "Condimentos",
+    "precio": 8.0,
+    "stock": 14,
+    "stock_minimo": 8
+  },
+  {
+    "codigo": "P025",
+    "nombre": "Velas paquete",
+    "categoria": "Uso diario",
+    "precio": 6.0,
+    "stock": 10,
+    "stock_minimo": 15
+  },
+  {
+    "codigo": "P026",
+    "nombre": "Fósforos",
+    "categoria": "Uso diario",
+    "precio": 2.0,
+    "stock": 35,
+    "stock_minimo": 15
+  },
+  {
+    "codigo": "P027",
+    "nombre": "Agua gaseosa pequeña",
+    "categoria": "Bebidas",
+    "precio": 4.0,
+    "stock": 24,
+    "stock_minimo": 10
+  },
+  {
+    "codigo": "P028",
+    "nombre": "Chocolate en polvo",
+    "categoria": "Bebidas",
+    "precio": 13.0,
+    "stock": 11,
+    "stock_minimo": 10
+  },
+  {
+    "codigo": "P029",
+    "nombre": "Sardinas en lata",
+    "categoria": "Enlatados",
+    "precio": 8.5,
+    "stock": 18,
+    "stock_minimo": 10
+  },
+  {
+    "codigo": "P030",
+    "nombre": "Detergente en polvo",
+    "categoria": "Limpieza",
+    "precio": 18.5,
+    "stock": 9,
+    "stock_minimo": 9
+  }
 ]

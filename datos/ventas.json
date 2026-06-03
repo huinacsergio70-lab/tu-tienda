@@ -1,0 +1,1373 @@
+[
+  {
+    "id_venta": "V0001",
+    "fecha": "2026-04-22 15:44:00",
+    "nit_cliente": "CF",
+    "items": [
+      {
+        "codigo": "P014",
+        "nombre": "Papel higienico",
+        "cantidad": 3,
+        "precio_unit": 20.0,
+        "subtotal": 60.0
+      }
+    ],
+    "subtotal": 60.0,
+    "iva": 7.2,
+    "total": 67.2
+  },
+  {
+    "id_venta": "V0002",
+    "fecha": "2026-05-10 12:09:00",
+    "nit_cliente": "4567890-1",
+    "items": [
+      {
+        "codigo": "P028",
+        "nombre": "Chocolate en polvo",
+        "cantidad": 2,
+        "precio_unit": 13.0,
+        "subtotal": 26.0
+      },
+      {
+        "codigo": "P019",
+        "nombre": "Shampoo pequeno",
+        "cantidad": 1,
+        "precio_unit": 14.0,
+        "subtotal": 14.0
+      }
+    ],
+    "subtotal": 40.0,
+    "iva": 4.8,
+    "total": 44.8
+  },
+  {
+    "id_venta": "V0003",
+    "fecha": "2026-04-11 08:50:00",
+    "nit_cliente": "1234567-8",
+    "items": [
+      {
+        "codigo": "P001",
+        "nombre": "Coca Cola 2L",
+        "cantidad": 3,
+        "precio_unit": 16.0,
+        "subtotal": 48.0
+      }
+    ],
+    "subtotal": 48.0,
+    "iva": 5.76,
+    "total": 53.76
+  },
+  {
+    "id_venta": "V0004",
+    "fecha": "2026-04-13 09:21:00",
+    "nit_cliente": "6789012-3",
+    "items": [
+      {
+        "codigo": "P005",
+        "nombre": "Azucar 1lb",
+        "cantidad": 2,
+        "precio_unit": 6.5,
+        "subtotal": 13.0
+      },
+      {
+        "codigo": "P014",
+        "nombre": "Papel higienico",
+        "cantidad": 3,
+        "precio_unit": 20.0,
+        "subtotal": 60.0
+      },
+      {
+        "codigo": "P019",
+        "nombre": "Shampoo pequeno",
+        "cantidad": 1,
+        "precio_unit": 14.0,
+        "subtotal": 14.0
+      },
+      {
+        "codigo": "P027",
+        "nombre": "Agua gaseosa pequena",
+        "cantidad": 2,
+        "precio_unit": 4.0,
+        "subtotal": 8.0
+      }
+    ],
+    "subtotal": 95.0,
+    "iva": 11.4,
+    "total": 106.4
+  },
+  {
+    "id_venta": "V0005",
+    "fecha": "2026-04-08 08:49:00",
+    "nit_cliente": "CF",
+    "items": [
+      {
+        "codigo": "P027",
+        "nombre": "Agua gaseosa pequena",
+        "cantidad": 2,
+        "precio_unit": 4.0,
+        "subtotal": 8.0
+      }
+    ],
+    "subtotal": 8.0,
+    "iva": 0.96,
+    "total": 8.96
+  },
+  {
+    "id_venta": "V0006",
+    "fecha": "2026-04-01 17:38:00",
+    "nit_cliente": "3456789-0",
+    "items": [
+      {
+        "codigo": "P002",
+        "nombre": "Tortrix",
+        "cantidad": 3,
+        "precio_unit": 3.0,
+        "subtotal": 9.0
+      },
+      {
+        "codigo": "P013",
+        "nombre": "Jabon para ropa",
+        "cantidad": 1,
+        "precio_unit": 12.5,
+        "subtotal": 12.5
+      },
+      {
+        "codigo": "P026",
+        "nombre": "Fosforos",
+        "cantidad": 1,
+        "precio_unit": 2.0,
+        "subtotal": 2.0
+      }
+    ],
+    "subtotal": 23.5,
+    "iva": 2.82,
+    "total": 26.32
+  },
+  {
+    "id_venta": "V0007",
+    "fecha": "2026-04-05 10:32:00",
+    "nit_cliente": "2345678-9",
+    "items": [
+      {
+        "codigo": "P004",
+        "nombre": "Huevos docena",
+        "cantidad": 1,
+        "precio_unit": 22.0,
+        "subtotal": 22.0
+      }
+    ],
+    "subtotal": 22.0,
+    "iva": 2.64,
+    "total": 24.64
+  },
+  {
+    "id_venta": "V0008",
+    "fecha": "2026-05-11 20:40:00",
+    "nit_cliente": "9012345-6",
+    "items": [
+      {
+        "codigo": "P009",
+        "nombre": "Agua pura",
+        "cantidad": 3,
+        "precio_unit": 5.0,
+        "subtotal": 15.0
+      }
+    ],
+    "subtotal": 15.0,
+    "iva": 1.8,
+    "total": 16.8
+  },
+  {
+    "id_venta": "V0009",
+    "fecha": "2026-04-22 13:08:00",
+    "nit_cliente": "8901234-5",
+    "items": [
+      {
+        "codigo": "P015",
+        "nombre": "Galletas Ritz",
+        "cantidad": 2,
+        "precio_unit": 6.0,
+        "subtotal": 12.0
+      }
+    ],
+    "subtotal": 12.0,
+    "iva": 1.44,
+    "total": 13.44
+  },
+  {
+    "id_venta": "V0010",
+    "fecha": "2026-05-30 16:52:00",
+    "nit_cliente": "7890123-4",
+    "items": [
+      {
+        "codigo": "P017",
+        "nombre": "Sopa instantanea",
+        "cantidad": 2,
+        "precio_unit": 4.5,
+        "subtotal": 9.0
+      },
+      {
+        "codigo": "P008",
+        "nombre": "Aceite vegetal 1L",
+        "cantidad": 2,
+        "precio_unit": 18.0,
+        "subtotal": 36.0
+      },
+      {
+        "codigo": "P011",
+        "nombre": "Maseca 1kg",
+        "cantidad": 2,
+        "precio_unit": 11.0,
+        "subtotal": 22.0
+      },
+      {
+        "codigo": "P010",
+        "nombre": "Leche en bolsa",
+        "cantidad": 2,
+        "precio_unit": 8.0,
+        "subtotal": 16.0
+      }
+    ],
+    "subtotal": 83.0,
+    "iva": 9.96,
+    "total": 92.96
+  },
+  {
+    "id_venta": "V0011",
+    "fecha": "2026-04-12 09:25:00",
+    "nit_cliente": "5678901-2",
+    "items": [
+      {
+        "codigo": "P029",
+        "nombre": "Sardinas en lata",
+        "cantidad": 3,
+        "precio_unit": 8.5,
+        "subtotal": 25.5
+      }
+    ],
+    "subtotal": 25.5,
+    "iva": 3.06,
+    "total": 28.56
+  },
+  {
+    "id_venta": "V0012",
+    "fecha": "2026-04-20 16:44:00",
+    "nit_cliente": "3456789-0",
+    "items": [
+      {
+        "codigo": "P016",
+        "nombre": "Chicles",
+        "cantidad": 2,
+        "precio_unit": 1.5,
+        "subtotal": 3.0
+      },
+      {
+        "codigo": "P026",
+        "nombre": "Fosforos",
+        "cantidad": 3,
+        "precio_unit": 2.0,
+        "subtotal": 6.0
+      },
+      {
+        "codigo": "P004",
+        "nombre": "Huevos docena",
+        "cantidad": 3,
+        "precio_unit": 22.0,
+        "subtotal": 66.0
+      },
+      {
+        "codigo": "P002",
+        "nombre": "Tortrix",
+        "cantidad": 1,
+        "precio_unit": 3.0,
+        "subtotal": 3.0
+      }
+    ],
+    "subtotal": 78.0,
+    "iva": 9.36,
+    "total": 87.36
+  },
+  {
+    "id_venta": "V0013",
+    "fecha": "2026-05-26 20:23:00",
+    "nit_cliente": "CF",
+    "items": [
+      {
+        "codigo": "P019",
+        "nombre": "Shampoo pequeno",
+        "cantidad": 2,
+        "precio_unit": 14.0,
+        "subtotal": 28.0
+      },
+      {
+        "codigo": "P027",
+        "nombre": "Agua gaseosa pequena",
+        "cantidad": 3,
+        "precio_unit": 4.0,
+        "subtotal": 12.0
+      },
+      {
+        "codigo": "P014",
+        "nombre": "Papel higienico",
+        "cantidad": 2,
+        "precio_unit": 20.0,
+        "subtotal": 40.0
+      }
+    ],
+    "subtotal": 80.0,
+    "iva": 9.6,
+    "total": 89.6
+  },
+  {
+    "id_venta": "V0014",
+    "fecha": "2026-05-14 08:41:00",
+    "nit_cliente": "CF",
+    "items": [
+      {
+        "codigo": "P009",
+        "nombre": "Agua pura",
+        "cantidad": 2,
+        "precio_unit": 5.0,
+        "subtotal": 10.0
+      },
+      {
+        "codigo": "P016",
+        "nombre": "Chicles",
+        "cantidad": 2,
+        "precio_unit": 1.5,
+        "subtotal": 3.0
+      }
+    ],
+    "subtotal": 13.0,
+    "iva": 1.56,
+    "total": 14.56
+  },
+  {
+    "id_venta": "V0015",
+    "fecha": "2026-04-16 12:12:00",
+    "nit_cliente": "9012345-6",
+    "items": [
+      {
+        "codigo": "P025",
+        "nombre": "Velas paquete",
+        "cantidad": 3,
+        "precio_unit": 6.0,
+        "subtotal": 18.0
+      }
+    ],
+    "subtotal": 18.0,
+    "iva": 2.16,
+    "total": 20.16
+  },
+  {
+    "id_venta": "V0016",
+    "fecha": "2026-05-28 17:32:00",
+    "nit_cliente": "CF",
+    "items": [
+      {
+        "codigo": "P028",
+        "nombre": "Chocolate en polvo",
+        "cantidad": 1,
+        "precio_unit": 13.0,
+        "subtotal": 13.0
+      },
+      {
+        "codigo": "P007",
+        "nombre": "Frijol negro 1lb",
+        "cantidad": 2,
+        "precio_unit": 7.5,
+        "subtotal": 15.0
+      },
+      {
+        "codigo": "P027",
+        "nombre": "Agua gaseosa pequena",
+        "cantidad": 3,
+        "precio_unit": 4.0,
+        "subtotal": 12.0
+      }
+    ],
+    "subtotal": 40.0,
+    "iva": 4.8,
+    "total": 44.8
+  },
+  {
+    "id_venta": "V0017",
+    "fecha": "2026-05-09 15:10:00",
+    "nit_cliente": "8901234-5",
+    "items": [
+      {
+        "codigo": "P003",
+        "nombre": "Pan frances",
+        "cantidad": 1,
+        "precio_unit": 1.0,
+        "subtotal": 1.0
+      },
+      {
+        "codigo": "P004",
+        "nombre": "Huevos docena",
+        "cantidad": 1,
+        "precio_unit": 22.0,
+        "subtotal": 22.0
+      }
+    ],
+    "subtotal": 23.0,
+    "iva": 2.76,
+    "total": 25.76
+  },
+  {
+    "id_venta": "V0018",
+    "fecha": "2026-05-13 18:11:00",
+    "nit_cliente": "6789012-3",
+    "items": [
+      {
+        "codigo": "P027",
+        "nombre": "Agua gaseosa pequena",
+        "cantidad": 2,
+        "precio_unit": 4.0,
+        "subtotal": 8.0
+      },
+      {
+        "codigo": "P014",
+        "nombre": "Papel higienico",
+        "cantidad": 2,
+        "precio_unit": 20.0,
+        "subtotal": 40.0
+      },
+      {
+        "codigo": "P016",
+        "nombre": "Chicles",
+        "cantidad": 1,
+        "precio_unit": 1.5,
+        "subtotal": 1.5
+      }
+    ],
+    "subtotal": 49.5,
+    "iva": 5.94,
+    "total": 55.44
+  },
+  {
+    "id_venta": "V0019",
+    "fecha": "2026-05-07 09:36:00",
+    "nit_cliente": "CF",
+    "items": [
+      {
+        "codigo": "P003",
+        "nombre": "Pan frances",
+        "cantidad": 2,
+        "precio_unit": 1.0,
+        "subtotal": 2.0
+      }
+    ],
+    "subtotal": 2.0,
+    "iva": 0.24,
+    "total": 2.24
+  },
+  {
+    "id_venta": "V0020",
+    "fecha": "2026-04-27 08:18:00",
+    "nit_cliente": "2345678-9",
+    "items": [
+      {
+        "codigo": "P005",
+        "nombre": "Azucar 1lb",
+        "cantidad": 3,
+        "precio_unit": 6.5,
+        "subtotal": 19.5
+      },
+      {
+        "codigo": "P013",
+        "nombre": "Jabon para ropa",
+        "cantidad": 2,
+        "precio_unit": 12.5,
+        "subtotal": 25.0
+      },
+      {
+        "codigo": "P027",
+        "nombre": "Agua gaseosa pequena",
+        "cantidad": 1,
+        "precio_unit": 4.0,
+        "subtotal": 4.0
+      },
+      {
+        "codigo": "P001",
+        "nombre": "Coca Cola 2L",
+        "cantidad": 1,
+        "precio_unit": 16.0,
+        "subtotal": 16.0
+      }
+    ],
+    "subtotal": 64.5,
+    "iva": 7.74,
+    "total": 72.24
+  },
+  {
+    "id_venta": "V0021",
+    "fecha": "2026-05-30 19:49:00",
+    "nit_cliente": "8901234-5",
+    "items": [
+      {
+        "codigo": "P024",
+        "nombre": "Ketchup",
+        "cantidad": 3,
+        "precio_unit": 8.0,
+        "subtotal": 24.0
+      },
+      {
+        "codigo": "P012",
+        "nombre": "Pollo por libra",
+        "cantidad": 2,
+        "precio_unit": 14.0,
+        "subtotal": 28.0
+      }
+    ],
+    "subtotal": 52.0,
+    "iva": 6.24,
+    "total": 58.24
+  },
+  {
+    "id_venta": "V0022",
+    "fecha": "2026-05-01 14:00:00",
+    "nit_cliente": "2345678-9",
+    "items": [
+      {
+        "codigo": "P025",
+        "nombre": "Velas paquete",
+        "cantidad": 3,
+        "precio_unit": 6.0,
+        "subtotal": 18.0
+      },
+      {
+        "codigo": "P010",
+        "nombre": "Leche en bolsa",
+        "cantidad": 2,
+        "precio_unit": 8.0,
+        "subtotal": 16.0
+      },
+      {
+        "codigo": "P009",
+        "nombre": "Agua pura",
+        "cantidad": 2,
+        "precio_unit": 5.0,
+        "subtotal": 10.0
+      },
+      {
+        "codigo": "P002",
+        "nombre": "Tortrix",
+        "cantidad": 1,
+        "precio_unit": 3.0,
+        "subtotal": 3.0
+      }
+    ],
+    "subtotal": 47.0,
+    "iva": 5.64,
+    "total": 52.64
+  },
+  {
+    "id_venta": "V0023",
+    "fecha": "2026-04-19 11:14:00",
+    "nit_cliente": "5678901-2",
+    "items": [
+      {
+        "codigo": "P028",
+        "nombre": "Chocolate en polvo",
+        "cantidad": 2,
+        "precio_unit": 13.0,
+        "subtotal": 26.0
+      },
+      {
+        "codigo": "P008",
+        "nombre": "Aceite vegetal 1L",
+        "cantidad": 2,
+        "precio_unit": 18.0,
+        "subtotal": 36.0
+      },
+      {
+        "codigo": "P001",
+        "nombre": "Coca Cola 2L",
+        "cantidad": 3,
+        "precio_unit": 16.0,
+        "subtotal": 48.0
+      }
+    ],
+    "subtotal": 110.0,
+    "iva": 13.2,
+    "total": 123.2
+  },
+  {
+    "id_venta": "V0024",
+    "fecha": "2026-05-30 14:26:00",
+    "nit_cliente": "9012345-6",
+    "items": [
+      {
+        "codigo": "P026",
+        "nombre": "Fosforos",
+        "cantidad": 1,
+        "precio_unit": 2.0,
+        "subtotal": 2.0
+      }
+    ],
+    "subtotal": 2.0,
+    "iva": 0.24,
+    "total": 2.24
+  },
+  {
+    "id_venta": "V0025",
+    "fecha": "2026-04-13 13:05:00",
+    "nit_cliente": "3456789-0",
+    "items": [
+      {
+        "codigo": "P019",
+        "nombre": "Shampoo pequeno",
+        "cantidad": 1,
+        "precio_unit": 14.0,
+        "subtotal": 14.0
+      },
+      {
+        "codigo": "P021",
+        "nombre": "Sal 1lb",
+        "cantidad": 1,
+        "precio_unit": 3.0,
+        "subtotal": 3.0
+      }
+    ],
+    "subtotal": 17.0,
+    "iva": 2.04,
+    "total": 19.04
+  },
+  {
+    "id_venta": "V0026",
+    "fecha": "2026-04-11 09:43:00",
+    "nit_cliente": "CF",
+    "items": [
+      {
+        "codigo": "P012",
+        "nombre": "Pollo por libra",
+        "cantidad": 1,
+        "precio_unit": 14.0,
+        "subtotal": 14.0
+      },
+      {
+        "codigo": "P013",
+        "nombre": "Jabon para ropa",
+        "cantidad": 3,
+        "precio_unit": 12.5,
+        "subtotal": 37.5
+      },
+      {
+        "codigo": "P016",
+        "nombre": "Chicles",
+        "cantidad": 3,
+        "precio_unit": 1.5,
+        "subtotal": 4.5
+      }
+    ],
+    "subtotal": 56.0,
+    "iva": 6.72,
+    "total": 62.72
+  },
+  {
+    "id_venta": "V0027",
+    "fecha": "2026-05-19 14:37:00",
+    "nit_cliente": "5678901-2",
+    "items": [
+      {
+        "codigo": "P021",
+        "nombre": "Sal 1lb",
+        "cantidad": 2,
+        "precio_unit": 3.0,
+        "subtotal": 6.0
+      }
+    ],
+    "subtotal": 6.0,
+    "iva": 0.72,
+    "total": 6.72
+  },
+  {
+    "id_venta": "V0028",
+    "fecha": "2026-04-02 08:21:00",
+    "nit_cliente": "CF",
+    "items": [
+      {
+        "codigo": "P024",
+        "nombre": "Ketchup",
+        "cantidad": 1,
+        "precio_unit": 8.0,
+        "subtotal": 8.0
+      },
+      {
+        "codigo": "P017",
+        "nombre": "Sopa instantanea",
+        "cantidad": 1,
+        "precio_unit": 4.5,
+        "subtotal": 4.5
+      },
+      {
+        "codigo": "P021",
+        "nombre": "Sal 1lb",
+        "cantidad": 3,
+        "precio_unit": 3.0,
+        "subtotal": 9.0
+      },
+      {
+        "codigo": "P005",
+        "nombre": "Azucar 1lb",
+        "cantidad": 3,
+        "precio_unit": 6.5,
+        "subtotal": 19.5
+      }
+    ],
+    "subtotal": 41.0,
+    "iva": 4.92,
+    "total": 45.92
+  },
+  {
+    "id_venta": "V0029",
+    "fecha": "2026-04-29 20:17:00",
+    "nit_cliente": "6789012-3",
+    "items": [
+      {
+        "codigo": "P003",
+        "nombre": "Pan frances",
+        "cantidad": 2,
+        "precio_unit": 1.0,
+        "subtotal": 2.0
+      },
+      {
+        "codigo": "P012",
+        "nombre": "Pollo por libra",
+        "cantidad": 2,
+        "precio_unit": 14.0,
+        "subtotal": 28.0
+      },
+      {
+        "codigo": "P027",
+        "nombre": "Agua gaseosa pequena",
+        "cantidad": 1,
+        "precio_unit": 4.0,
+        "subtotal": 4.0
+      },
+      {
+        "codigo": "P024",
+        "nombre": "Ketchup",
+        "cantidad": 3,
+        "precio_unit": 8.0,
+        "subtotal": 24.0
+      }
+    ],
+    "subtotal": 58.0,
+    "iva": 6.96,
+    "total": 64.96
+  },
+  {
+    "id_venta": "V0030",
+    "fecha": "2026-05-18 15:06:00",
+    "nit_cliente": "CF",
+    "items": [
+      {
+        "codigo": "P018",
+        "nombre": "Atun en lata",
+        "cantidad": 2,
+        "precio_unit": 10.0,
+        "subtotal": 20.0
+      }
+    ],
+    "subtotal": 20.0,
+    "iva": 2.4,
+    "total": 22.4
+  },
+  {
+    "id_venta": "V0031",
+    "fecha": "2026-05-06 10:04:00",
+    "nit_cliente": "1234567-8",
+    "items": [
+      {
+        "codigo": "P012",
+        "nombre": "Pollo por libra",
+        "cantidad": 1,
+        "precio_unit": 14.0,
+        "subtotal": 14.0
+      }
+    ],
+    "subtotal": 14.0,
+    "iva": 1.68,
+    "total": 15.68
+  },
+  {
+    "id_venta": "V0032",
+    "fecha": "2026-04-29 10:41:00",
+    "nit_cliente": "2345678-9",
+    "items": [
+      {
+        "codigo": "P027",
+        "nombre": "Agua gaseosa pequena",
+        "cantidad": 2,
+        "precio_unit": 4.0,
+        "subtotal": 8.0
+      },
+      {
+        "codigo": "P010",
+        "nombre": "Leche en bolsa",
+        "cantidad": 1,
+        "precio_unit": 8.0,
+        "subtotal": 8.0
+      }
+    ],
+    "subtotal": 16.0,
+    "iva": 1.92,
+    "total": 17.92
+  },
+  {
+    "id_venta": "V0033",
+    "fecha": "2026-05-03 09:44:00",
+    "nit_cliente": "CF",
+    "items": [
+      {
+        "codigo": "P030",
+        "nombre": "Detergente en polvo",
+        "cantidad": 2,
+        "precio_unit": 18.5,
+        "subtotal": 37.0
+      },
+      {
+        "codigo": "P008",
+        "nombre": "Aceite vegetal 1L",
+        "cantidad": 1,
+        "precio_unit": 18.0,
+        "subtotal": 18.0
+      },
+      {
+        "codigo": "P027",
+        "nombre": "Agua gaseosa pequena",
+        "cantidad": 3,
+        "precio_unit": 4.0,
+        "subtotal": 12.0
+      }
+    ],
+    "subtotal": 67.0,
+    "iva": 8.04,
+    "total": 75.04
+  },
+  {
+    "id_venta": "V0034",
+    "fecha": "2026-05-06 18:07:00",
+    "nit_cliente": "2345678-9",
+    "items": [
+      {
+        "codigo": "P006",
+        "nombre": "Arroz 1lb",
+        "cantidad": 3,
+        "precio_unit": 5.0,
+        "subtotal": 15.0
+      }
+    ],
+    "subtotal": 15.0,
+    "iva": 1.8,
+    "total": 16.8
+  },
+  {
+    "id_venta": "V0035",
+    "fecha": "2026-05-13 08:25:00",
+    "nit_cliente": "4567890-1",
+    "items": [
+      {
+        "codigo": "P001",
+        "nombre": "Coca Cola 2L",
+        "cantidad": 3,
+        "precio_unit": 16.0,
+        "subtotal": 48.0
+      },
+      {
+        "codigo": "P026",
+        "nombre": "Fosforos",
+        "cantidad": 3,
+        "precio_unit": 2.0,
+        "subtotal": 6.0
+      },
+      {
+        "codigo": "P021",
+        "nombre": "Sal 1lb",
+        "cantidad": 3,
+        "precio_unit": 3.0,
+        "subtotal": 9.0
+      },
+      {
+        "codigo": "P012",
+        "nombre": "Pollo por libra",
+        "cantidad": 2,
+        "precio_unit": 14.0,
+        "subtotal": 28.0
+      }
+    ],
+    "subtotal": 91.0,
+    "iva": 10.92,
+    "total": 101.92
+  },
+  {
+    "id_venta": "V0036",
+    "fecha": "2026-05-08 20:20:00",
+    "nit_cliente": "3456789-0",
+    "items": [
+      {
+        "codigo": "P018",
+        "nombre": "Atun en lata",
+        "cantidad": 1,
+        "precio_unit": 10.0,
+        "subtotal": 10.0
+      },
+      {
+        "codigo": "P027",
+        "nombre": "Agua gaseosa pequena",
+        "cantidad": 2,
+        "precio_unit": 4.0,
+        "subtotal": 8.0
+      },
+      {
+        "codigo": "P029",
+        "nombre": "Sardinas en lata",
+        "cantidad": 2,
+        "precio_unit": 8.5,
+        "subtotal": 17.0
+      }
+    ],
+    "subtotal": 35.0,
+    "iva": 4.2,
+    "total": 39.2
+  },
+  {
+    "id_venta": "V0037",
+    "fecha": "2026-04-06 13:13:00",
+    "nit_cliente": "CF",
+    "items": [
+      {
+        "codigo": "P005",
+        "nombre": "Azucar 1lb",
+        "cantidad": 1,
+        "precio_unit": 6.5,
+        "subtotal": 6.5
+      },
+      {
+        "codigo": "P022",
+        "nombre": "Cafe instantaneo",
+        "cantidad": 1,
+        "precio_unit": 28.0,
+        "subtotal": 28.0
+      },
+      {
+        "codigo": "P021",
+        "nombre": "Sal 1lb",
+        "cantidad": 1,
+        "precio_unit": 3.0,
+        "subtotal": 3.0
+      },
+      {
+        "codigo": "P007",
+        "nombre": "Frijol negro 1lb",
+        "cantidad": 2,
+        "precio_unit": 7.5,
+        "subtotal": 15.0
+      }
+    ],
+    "subtotal": 52.5,
+    "iva": 6.3,
+    "total": 58.8
+  },
+  {
+    "id_venta": "V0038",
+    "fecha": "2026-05-30 19:07:00",
+    "nit_cliente": "5678901-2",
+    "items": [
+      {
+        "codigo": "P012",
+        "nombre": "Pollo por libra",
+        "cantidad": 2,
+        "precio_unit": 14.0,
+        "subtotal": 28.0
+      },
+      {
+        "codigo": "P017",
+        "nombre": "Sopa instantanea",
+        "cantidad": 2,
+        "precio_unit": 4.5,
+        "subtotal": 9.0
+      },
+      {
+        "codigo": "P006",
+        "nombre": "Arroz 1lb",
+        "cantidad": 2,
+        "precio_unit": 5.0,
+        "subtotal": 10.0
+      },
+      {
+        "codigo": "P009",
+        "nombre": "Agua pura",
+        "cantidad": 1,
+        "precio_unit": 5.0,
+        "subtotal": 5.0
+      }
+    ],
+    "subtotal": 52.0,
+    "iva": 6.24,
+    "total": 58.24
+  },
+  {
+    "id_venta": "V0039",
+    "fecha": "2026-05-06 15:01:00",
+    "nit_cliente": "3456789-0",
+    "items": [
+      {
+        "codigo": "P008",
+        "nombre": "Aceite vegetal 1L",
+        "cantidad": 3,
+        "precio_unit": 18.0,
+        "subtotal": 54.0
+      },
+      {
+        "codigo": "P030",
+        "nombre": "Detergente en polvo",
+        "cantidad": 3,
+        "precio_unit": 18.5,
+        "subtotal": 55.5
+      }
+    ],
+    "subtotal": 109.5,
+    "iva": 13.14,
+    "total": 122.64
+  },
+  {
+    "id_venta": "V0040",
+    "fecha": "2026-05-19 15:45:00",
+    "nit_cliente": "7890123-4",
+    "items": [
+      {
+        "codigo": "P028",
+        "nombre": "Chocolate en polvo",
+        "cantidad": 2,
+        "precio_unit": 13.0,
+        "subtotal": 26.0
+      },
+      {
+        "codigo": "P017",
+        "nombre": "Sopa instantanea",
+        "cantidad": 3,
+        "precio_unit": 4.5,
+        "subtotal": 13.5
+      },
+      {
+        "codigo": "P016",
+        "nombre": "Chicles",
+        "cantidad": 1,
+        "precio_unit": 1.5,
+        "subtotal": 1.5
+      }
+    ],
+    "subtotal": 41.0,
+    "iva": 4.92,
+    "total": 45.92
+  },
+  {
+    "id_venta": "V0041",
+    "fecha": "2026-04-16 12:25:00",
+    "nit_cliente": "1234567-8",
+    "items": [
+      {
+        "codigo": "P022",
+        "nombre": "Cafe instantaneo",
+        "cantidad": 3,
+        "precio_unit": 28.0,
+        "subtotal": 84.0
+      },
+      {
+        "codigo": "P008",
+        "nombre": "Aceite vegetal 1L",
+        "cantidad": 1,
+        "precio_unit": 18.0,
+        "subtotal": 18.0
+      },
+      {
+        "codigo": "P013",
+        "nombre": "Jabon para ropa",
+        "cantidad": 2,
+        "precio_unit": 12.5,
+        "subtotal": 25.0
+      },
+      {
+        "codigo": "P007",
+        "nombre": "Frijol negro 1lb",
+        "cantidad": 3,
+        "precio_unit": 7.5,
+        "subtotal": 22.5
+      }
+    ],
+    "subtotal": 149.5,
+    "iva": 17.94,
+    "total": 167.44
+  },
+  {
+    "id_venta": "V0042",
+    "fecha": "2026-05-14 16:42:00",
+    "nit_cliente": "9012345-6",
+    "items": [
+      {
+        "codigo": "P027",
+        "nombre": "Agua gaseosa pequena",
+        "cantidad": 1,
+        "precio_unit": 4.0,
+        "subtotal": 4.0
+      },
+      {
+        "codigo": "P028",
+        "nombre": "Chocolate en polvo",
+        "cantidad": 2,
+        "precio_unit": 13.0,
+        "subtotal": 26.0
+      },
+      {
+        "codigo": "P018",
+        "nombre": "Atun en lata",
+        "cantidad": 1,
+        "precio_unit": 10.0,
+        "subtotal": 10.0
+      },
+      {
+        "codigo": "P006",
+        "nombre": "Arroz 1lb",
+        "cantidad": 1,
+        "precio_unit": 5.0,
+        "subtotal": 5.0
+      }
+    ],
+    "subtotal": 45.0,
+    "iva": 5.4,
+    "total": 50.4
+  },
+  {
+    "id_venta": "V0043",
+    "fecha": "2026-04-03 18:49:00",
+    "nit_cliente": "CF",
+    "items": [
+      {
+        "codigo": "P008",
+        "nombre": "Aceite vegetal 1L",
+        "cantidad": 3,
+        "precio_unit": 18.0,
+        "subtotal": 54.0
+      },
+      {
+        "codigo": "P012",
+        "nombre": "Pollo por libra",
+        "cantidad": 2,
+        "precio_unit": 14.0,
+        "subtotal": 28.0
+      },
+      {
+        "codigo": "P020",
+        "nombre": "Pasta dental",
+        "cantidad": 1,
+        "precio_unit": 15.0,
+        "subtotal": 15.0
+      }
+    ],
+    "subtotal": 97.0,
+    "iva": 11.64,
+    "total": 108.64
+  },
+  {
+    "id_venta": "V0044",
+    "fecha": "2026-04-15 12:44:00",
+    "nit_cliente": "5678901-2",
+    "items": [
+      {
+        "codigo": "P012",
+        "nombre": "Pollo por libra",
+        "cantidad": 2,
+        "precio_unit": 14.0,
+        "subtotal": 28.0
+      },
+      {
+        "codigo": "P029",
+        "nombre": "Sardinas en lata",
+        "cantidad": 2,
+        "precio_unit": 8.5,
+        "subtotal": 17.0
+      }
+    ],
+    "subtotal": 45.0,
+    "iva": 5.4,
+    "total": 50.4
+  },
+  {
+    "id_venta": "V0045",
+    "fecha": "2026-05-01 08:07:00",
+    "nit_cliente": "CF",
+    "items": [
+      {
+        "codigo": "P006",
+        "nombre": "Arroz 1lb",
+        "cantidad": 2,
+        "precio_unit": 5.0,
+        "subtotal": 10.0
+      },
+      {
+        "codigo": "P020",
+        "nombre": "Pasta dental",
+        "cantidad": 1,
+        "precio_unit": 15.0,
+        "subtotal": 15.0
+      }
+    ],
+    "subtotal": 25.0,
+    "iva": 3.0,
+    "total": 28.0
+  },
+  {
+    "id_venta": "V0046",
+    "fecha": "2026-04-19 10:53:00",
+    "nit_cliente": "9012345-6",
+    "items": [
+      {
+        "codigo": "P022",
+        "nombre": "Cafe instantaneo",
+        "cantidad": 1,
+        "precio_unit": 28.0,
+        "subtotal": 28.0
+      },
+      {
+        "codigo": "P030",
+        "nombre": "Detergente en polvo",
+        "cantidad": 1,
+        "precio_unit": 18.5,
+        "subtotal": 18.5
+      },
+      {
+        "codigo": "P010",
+        "nombre": "Leche en bolsa",
+        "cantidad": 1,
+        "precio_unit": 8.0,
+        "subtotal": 8.0
+      },
+      {
+        "codigo": "P001",
+        "nombre": "Coca Cola 2L",
+        "cantidad": 3,
+        "precio_unit": 16.0,
+        "subtotal": 48.0
+      }
+    ],
+    "subtotal": 102.5,
+    "iva": 12.3,
+    "total": 114.8
+  },
+  {
+    "id_venta": "V0047",
+    "fecha": "2026-05-01 13:13:00",
+    "nit_cliente": "2345678-9",
+    "items": [
+      {
+        "codigo": "P021",
+        "nombre": "Sal 1lb",
+        "cantidad": 1,
+        "precio_unit": 3.0,
+        "subtotal": 3.0
+      }
+    ],
+    "subtotal": 3.0,
+    "iva": 0.36,
+    "total": 3.36
+  },
+  {
+    "id_venta": "V0048",
+    "fecha": "2026-05-13 12:14:00",
+    "nit_cliente": "CF",
+    "items": [
+      {
+        "codigo": "P009",
+        "nombre": "Agua pura",
+        "cantidad": 2,
+        "precio_unit": 5.0,
+        "subtotal": 10.0
+      }
+    ],
+    "subtotal": 10.0,
+    "iva": 1.2,
+    "total": 11.2
+  },
+  {
+    "id_venta": "V0049",
+    "fecha": "2026-04-09 17:10:00",
+    "nit_cliente": "8901234-5",
+    "items": [
+      {
+        "codigo": "P026",
+        "nombre": "Fosforos",
+        "cantidad": 1,
+        "precio_unit": 2.0,
+        "subtotal": 2.0
+      }
+    ],
+    "subtotal": 2.0,
+    "iva": 0.24,
+    "total": 2.24
+  },
+  {
+    "id_venta": "V0050",
+    "fecha": "2026-05-12 10:20:00",
+    "nit_cliente": "0123456-7",
+    "items": [
+      {
+        "codigo": "P001",
+        "nombre": "Coca Cola 2L",
+        "cantidad": 2,
+        "precio_unit": 16.0,
+        "subtotal": 32.0
+      },
+      {
+        "codigo": "P005",
+        "nombre": "Azucar 1lb",
+        "cantidad": 2,
+        "precio_unit": 6.5,
+        "subtotal": 13.0
+      },
+      {
+        "codigo": "P021",
+        "nombre": "Sal 1lb",
+        "cantidad": 2,
+        "precio_unit": 3.0,
+        "subtotal": 6.0
+      },
+      {
+        "codigo": "P029",
+        "nombre": "Sardinas en lata",
+        "cantidad": 1,
+        "precio_unit": 8.5,
+        "subtotal": 8.5
+      }
+    ],
+    "subtotal": 59.5,
+    "iva": 7.14,
+    "total": 66.64
+  },
+  {
+    "id_venta": "V0051",
+    "fecha": "2026-06-03 00:02:09",
+    "nit_cliente": "CF",
+    "items": [
+      {
+        "codigo": "P002",
+        "nombre": "Tortrix",
+        "cantidad": 8,
+        "precio_unit": 3.0,
+        "subtotal": 24.0
+      },
+      {
+        "codigo": "P003",
+        "nombre": "Pan francés",
+        "cantidad": 20,
+        "precio_unit": 1.0,
+        "subtotal": 20.0
+      }
+    ],
+    "subtotal": 44.0,
+    "iva": 5.28,
+    "total": 49.28
+  }
+]
