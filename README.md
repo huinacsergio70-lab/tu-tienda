@@ -1,5 +1,5 @@
 # tu-tienda
-#  Sistema POS — Tu Tienda
+#  Sistema  — Tu Tienda
 
 > Sistema de punto de venta en consola desarrollado en Python para pequeños negocios de barrio.  
 > Diseñado para ser simple, robusto y fácil de usar sin conexión a internet.
