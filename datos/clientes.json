@@ -1,62 +1,62 @@
 [
   {
-    "nit": "1234510-8",
-    "nombre": "Mario López",
-    "telefono": "0575-1234",
-    "email": "maria@correo.com"
+    "nit": "1234567-8",
+    "nombre": "Cesar Ginez",
+    "telefono": "4215-7832",
+    "email": "simonC@correo.com"
   },
   {
-    "nit": "9876543-2",
-    "nombre": "Carlos Pérez",
-    "telefono": "4444-9876",
-    "email": "carlos@correo.com"
+    "nit": "2345678-9",
+    "nombre": "Magnus Gonzales",
+    "telefono": "5532-1947",
+    "email": "mangon@correo.com"
   },
   {
-    "nit": "2468135-7",
-    "nombre": "Ana González",
-    "telefono": "3333-2468",
-    "email": "ana.g@correo.com"
+    "nit": "4567890-1",
+    "nombre": "Alpha chino",
+    "telefono": "4789-6621",
+    "email": "alpharius@correo.com"
   },
   {
-    "nit": "1357924-6",
-    "nombre": "Luis Martínez",
-    "telefono": "2222-1357",
-    "email": "luis.m@correo.com"
+    "nit": "3456789-0",
+    "nombre": "Gutierrez Sebastian",
+    "telefono": "5991-3408",
+    "email": "sebas@correo.com"
   },
   {
-    "nit": "7531246-9",
-    "nombre": "Rosa Hernández",
-    "telefono": "6666-7531",
-    "email": "rosa.h@correo.com"
+    "nit": "5678901-2",
+    "nombre": "Hugo Sanches",
+    "telefono": "4123-8756",
+    "email": "snath@correo.com"
   },
   {
-    "nit": "8642097-3",
-    "nombre": "Jorge Ramírez",
-    "telefono": "7777-8642",
-    "email": "jorge.r@correo.com"
+    "nit": "6789012-3",
+    "nombre": "Laura Mendez",
+    "telefono": "5234-9871",
+    "email": "laura.m@correo.com"
   },
   {
-    "nit": "3692581-4",
-    "nombre": "Sandra Castro",
-    "telefono": "8888-3692",
-    "email": "sandra.c@correo.com"
+    "nit": "7890123-4",
+    "nombre": "Diego Fuentes",
+    "telefono": "4678-2345",
+    "email": "diego.f@correo.com"
   },
   {
-    "nit": "1472583-0",
-    "nombre": "Pedro Morales",
-    "telefono": "9999-1472",
-    "email": "pedro.m@correo.com"
+    "nit": "8901234-5",
+    "nombre": "Sofia Ramos",
+    "telefono": "3456-7890",
+    "email": "sofia.r@correo.com"
   },
   {
-    "nit": "9517348-1",
-    "nombre": "Elena Flores",
-    "telefono": "1111-9517",
-    "email": "elena.f@correo.com"
+    "nit": "9012345-6",
+    "nombre": "Roberto Cifuentes",
+    "telefono": "5789-1234",
+    "email": "roberto.c@correo.com"
   },
   {
-    "nit": "6284730-5",
-    "nombre": "Miguel Torres",
-    "telefono": "2345-6284",
-    "email": "miguel.t@correo.com"
+    "nit": "0123456-7",
+    "nombre": "Valeria Reyes",
+    "telefono": "4321-6543",
+    "email": "valeria.r@correo.com"
   }
 ]
