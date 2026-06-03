@@ -94,7 +94,7 @@ MENÚ PRINCIPAL
 | 4 | Actualizar precio |
 | 5 | Ajustar stock (compra / merma / ajuste) |
 | 6 | Eliminar producto |
-| 7 | Ver productos con stock bajo ⚠ |
+| 7 | Ver productos con stock bajo |
 
 ---
 
