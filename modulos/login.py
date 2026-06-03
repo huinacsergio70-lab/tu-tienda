@@ -2,7 +2,7 @@
 Modulo: login.py
 Descripcion: Autenticacion de usuarios con roles diferenciados (admin / cajero).
              Admin tiene acceso completo. Cajero solo puede hacer ventas y reportes basicos.
-Autores: [Tu nombre] / [Nombre companero]
+Autores: [Sergio Huinac] / [daniel adrian bartolo franciscos]
 Fecha: 2026
 """
 
@@ -18,12 +18,9 @@ USUARIOS_DEFAULT = [
 ]
 
 BANNER_LOGIN = """
-  +--------------------------------------------------+
-  |                                                  |
-  |        SISTEMA POS  --  TU TIENDA                |
-  |            Con carino para Dona Marta            |
-  |                                                  |
-  +--------------------------------------------------+
+  ==============================
+       SISTEMA  TU TIENDA
+  ==============================
 """
 
 

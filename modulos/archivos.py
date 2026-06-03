@@ -1,7 +1,7 @@
 """
 Modulo: archivos.py
 Descripcion: Funciones para leer y escribir archivos JSON con manejo de errores.
-Autores: [Tu nombre] / [Nombre companero]
+Autores: [Sergio Huinac] / [daniel adrian bartolo franciscos]
 Fecha: 2026
 """
 

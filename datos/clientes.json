@@ -1,62 +1,12 @@
 [
-  {
-    "nit": "1234567-8",
-    "nombre": "Cesar Ginez",
-    "telefono": "4215-7832",
-    "email": "simonC@correo.com"
-  },
-  {
-    "nit": "2345678-9",
-    "nombre": "Magnus Gonzales",
-    "telefono": "5532-1947",
-    "email": "mangon@correo.com"
-  },
-  {
-    "nit": "4567890-1",
-    "nombre": "Alpha chino",
-    "telefono": "4789-6621",
-    "email": "alpharius@correo.com"
-  },
-  {
-    "nit": "3456789-0",
-    "nombre": "Gutierrez Sebastian",
-    "telefono": "5991-3408",
-    "email": "sebas@correo.com"
-  },
-  {
-    "nit": "5678901-2",
-    "nombre": "Hugo Sanches",
-    "telefono": "4123-8756",
-    "email": "snath@correo.com"
-  },
-  {
-    "nit": "6789012-3",
-    "nombre": "Laura Mendez",
-    "telefono": "5234-9871",
-    "email": "laura.m@correo.com"
-  },
-  {
-    "nit": "7890123-4",
-    "nombre": "Diego Fuentes",
-    "telefono": "4678-2345",
-    "email": "diego.f@correo.com"
-  },
-  {
-    "nit": "8901234-5",
-    "nombre": "Sofia Ramos",
-    "telefono": "3456-7890",
-    "email": "sofia.r@correo.com"
-  },
-  {
-    "nit": "9012345-6",
-    "nombre": "Roberto Cifuentes",
-    "telefono": "5789-1234",
-    "email": "roberto.c@correo.com"
-  },
-  {
-    "nit": "0123456-7",
-    "nombre": "Valeria Reyes",
-    "telefono": "4321-6543",
-    "email": "valeria.r@correo.com"
-  }
+  { "nit": "1234567-8", "nombre": "Cesar Ginez",         "telefono": "4215-7832", "email": "simonC@correo.com" },
+  { "nit": "2345678-9", "nombre": "Magnus Gonzales",     "telefono": "5532-1947", "email": "mangon@correo.com" },
+  { "nit": "4567890-1", "nombre": "Alpha chino",         "telefono": "4789-6621", "email": "alpharius@correo.com" },
+  { "nit": "3456789-0", "nombre": "Gutierrez Sebastian", "telefono": "5991-3408", "email": "sebas@correo.com" },
+  { "nit": "5678901-2", "nombre": "Hugo Sanches",        "telefono": "4123-8756", "email": "snath@correo.com" },
+  { "nit": "6789012-3", "nombre": "Laura Mendez",        "telefono": "5234-9871", "email": "laura.m@correo.com" },
+  { "nit": "7890123-4", "nombre": "Diego Fuentes",       "telefono": "4678-2345", "email": "diego.f@correo.com" },
+  { "nit": "8901234-5", "nombre": "Sofia Ramos",         "telefono": "3456-7890", "email": "sofia.r@correo.com" },
+  { "nit": "9012345-6", "nombre": "Roberto Cifuentes",   "telefono": "5789-1234", "email": "roberto.c@correo.com" },
+  { "nit": "0123456-7", "nombre": "Valeria Reyes",       "telefono": "4321-6543", "email": "valeria.r@correo.com" }
 ]

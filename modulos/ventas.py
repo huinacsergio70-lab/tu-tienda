@@ -1,7 +1,7 @@
 """
 Modulo: ventas.py
 Descripcion: Proceso de venta, carrito, facturacion y persistencia de ventas.
-Autores: [Tu nombre] / [Nombre companero]
+Autores: [Sergio Huinac] / [daniel adrian bartolo franciscos]
 Fecha: 2026
 """
 

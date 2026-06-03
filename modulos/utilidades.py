@@ -1,7 +1,7 @@
 """
 Modulo: utilidades.py
 Descripcion: Funciones de validacion, formateo de texto y presentacion de menus.
-Autores: [Tu nombre] / [Nombre companero]
+Autores: [Sergio Huinac] / [daniel adrian bartolo franciscos]
 Fecha: 2026
 """
 

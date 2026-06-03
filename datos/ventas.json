@@ -1345,29 +1345,5 @@
     "subtotal": 59.5,
     "iva": 7.14,
     "total": 66.64
-  },
-  {
-    "id_venta": "V0051",
-    "fecha": "2026-06-03 00:02:09",
-    "nit_cliente": "CF",
-    "items": [
-      {
-        "codigo": "P002",
-        "nombre": "Tortrix",
-        "cantidad": 8,
-        "precio_unit": 3.0,
-        "subtotal": 24.0
-      },
-      {
-        "codigo": "P003",
-        "nombre": "Pan francés",
-        "cantidad": 20,
-        "precio_unit": 1.0,
-        "subtotal": 20.0
-      }
-    ],
-    "subtotal": 44.0,
-    "iva": 5.28,
-    "total": 49.28
   }
 ]

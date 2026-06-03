@@ -2,7 +2,7 @@
 Modulo: clientes.py
 Descripcion: CRUD completo de clientes del sistema POS.
              Soporta ventas a Consumidor Final (NIT: CF).
-Autores: [Tu nombre] / [Nombre companero]
+Autores: [Sergio Huinac] / [daniel adrian bartolo franciscos]
 Fecha: 2026
 """
 

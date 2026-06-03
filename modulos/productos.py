@@ -1,7 +1,7 @@
 """
 Modulo: productos.py
 Descripcion: CRUD completo de productos e inventario para el sistema POS.
-Autores: [Tu nombre] / [Nombre companero]
+Autores: [Sergio Huinac] / [daniel adrian bartolo franciscos]
 Fecha: 2026
 """
 
@@ -270,4 +270,3 @@ def menu_productos(ventas):
             eliminar_producto(ventas)
         elif opcion == 7:
             mostrar_stock_bajo()
-

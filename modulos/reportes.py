@@ -1,7 +1,7 @@
 """
 Modulo: reportes.py
 Descripcion: Reportes y estadisticas del sistema POS.
-Autores: [Tu nombre] / [Nombre companero]
+Autores: [Sergio Huinac] / [daniel adrian bartolo franciscos]
 Fecha: 2026
 """
 

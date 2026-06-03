@@ -2,7 +2,7 @@
 Modulo: main.py
 Descripcion: Punto de entrada del sistema POS Tu Tienda.
              Inicializa directorios, gestiona login y muestra el menu segun rol.
-Autores: [Tu nombre] / [Nombre companero]
+Autores: [Sergio Huinac] / [daniel adrian bartolo franciscos]
 Fecha: 2026
 """
 
@@ -20,10 +20,9 @@ from modulos.clientes import menu_clientes
 from modulos.reportes import menu_reportes
 
 BANNER = """
---------------------------------------------------
-            TU TIENDA               
-            Dona Marta            
---------------------------------------------------                                          
+  ==============================
+       SISTEMA  TU TIENDA
+  ==============================
 """
 
 
@@ -109,7 +108,7 @@ def salir():
     limpiar_pantalla()
     print()
     print("  ==========================================")
-    print("    Gracias por usar el Sistema .")
+    print("    Gracias por usar el Sistema POS.")
     print("    Hasta pronto, Dona Marta!")
     print("  ==========================================")
     print()
@@ -126,3 +125,4 @@ if __name__ == "__main__":
             print()
             if input("  Iniciar nueva sesion? (s/n): ").strip().lower() != 's':
                 salir()
+
