@@ -1,1 +1,1 @@
-# Paquete modulos - Sistema POS Tu Tienda
+# Paquete modulos - Sistema Tu Tienda
