@@ -120,7 +120,7 @@ MENÚ PRINCIPAL
 4. Calcular subtotal, IVA (12%) y total automáticamente
 5. Confirmar venta → descuenta stock, guarda en `ventas.json` y genera factura `.txt`
 
-**Ejemplo de factura generada:**
+**Ejemplo de factura:**
 ```
 ════════════════════════════════════════════════════
          TU TIENDA - DOÑA MARTA
