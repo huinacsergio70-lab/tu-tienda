@@ -112,7 +112,7 @@ MENÚ PRINCIPAL
 
 ---
 
-## 🛍 Módulo de Ventas
+##  Módulo de Ventas
 
 1. Ingresar NIT del cliente o usar `CF`
 2. Agregar productos al carrito por código
@@ -170,8 +170,8 @@ MENÚ PRINCIPAL
 
 ##  Autores
 
-- **[Tu nombre]** — [tu-email@correo.com]
-- **[Nombre compañero]** — [compañero@correo.com]
+- ** Sergio D´alessandro Huinac Alvarez 
+- ** Daniel Adrian Bartolo Francisco
 
 Proyecto Final · Programación 1 · 2026
 
