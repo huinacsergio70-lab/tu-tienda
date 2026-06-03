@@ -15,7 +15,7 @@ from modulos.utilidades import (
 ARCHIVO = 'productos'
 
 
-# ─── Carga y guardado ──────────────────────────────────────────────────────────
+# ─── Carga y guardado ────────────
 
 def cargar_productos():
     """Lee y devuelve la lista de productos desde el JSON."""
@@ -27,7 +27,7 @@ def guardar_productos(productos):
     escribir_json(ARCHIVO, productos)
 
 
-# ─── Búsqueda ──────────────────────────────────────────────────────────────────
+# ─── Búsqueda ──────
 
 def buscar_por_codigo(codigo, productos=None):
     """
@@ -55,7 +55,7 @@ def buscar_productos(termino):
     return [p for p in productos if t in p['codigo'].lower() or t in p['nombre'].lower()]
 
 
-# ─── Presentación ──────────────────────────────────────────────────────────────
+# ─── Presentación ───────────────
 
 def imprimir_tabla(productos):
     """
@@ -76,7 +76,7 @@ def imprimir_tabla(productos):
         )
 
 
-# ─── Operaciones CRUD ─────────────────────────────────────────────────────────
+# ─── Operaciones CRUD ──────────────────
 
 def registrar_producto():
     """Solicita datos y registra un nuevo producto único en el inventario."""
@@ -250,7 +250,7 @@ def mostrar_stock_bajo():
     pausar()
 
 
-# ─── Menú del módulo ──────────────────────────────────────────────────────────
+# ─── Menú del módulo ─────────
 
 def menu_productos(ventas):
     """
