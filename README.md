@@ -1,12 +1,12 @@
 # tu-tienda
-# 🛒 Sistema POS — Tu Tienda
+#  Sistema POS — Tu Tienda
 
 > Sistema de punto de venta en consola desarrollado en Python para pequeños negocios de barrio.  
 > Diseñado para ser simple, robusto y fácil de usar sin conexión a internet.
 
 ---
 
-## 📋 Descripción
+## Descripción
 
 **Tu Tienda** es una herramienta POS (Point of Sale) que permite a Doña Marta y su familia gestionar:
 
@@ -19,7 +19,7 @@ Todos los datos se guardan en archivos **JSON locales**, sin necesidad de intern
 
 ---
 
-## 🗂️ Estructura del proyecto
+## Estructura del proyecto
 
 ```
 tu-tienda/
@@ -41,14 +41,14 @@ tu-tienda/
 
 ---
 
-## ⚙️ Requisitos
+## Requisitos
 
 - Python **3.10 o superior**
 - No requiere librerías externas (solo módulos estándar: `json`, `datetime`, `os`)
 
 ---
 
-## 🚀 Cómo ejecutar
+## Cómo ejecutar
 
 1. Clona o descarga el repositorio:
    ```bash
@@ -65,26 +65,26 @@ tu-tienda/
 
 ---
 
-## 🖥️ Menú principal
+## Menú principal
 
 ```
 ╔══════════════════════════════════════════════════╗
-║       🛒  SISTEMA POS — TU TIENDA  🛒            ║
-║           Con cariño para Doña Marta             ║
+       SISTEMA  — TU TIENDA              
+         Con cariño para Doña Marta           
 ╚══════════════════════════════════════════════════╝
 
 MENÚ PRINCIPAL
 ══════════════════════════════════════════════════════════════
-  1. 📦  Productos (Inventario)
-  2. 👥  Clientes
-  3. 🛍  Ventas
-  4. 📊  Reportes
+  1.   Productos (Inventario)
+  2.   Clientes
+  3.   Ventas
+  4.   Reportes
   0. Salir del sistema
 ```
 
 ---
 
-## 📦 Módulo de Productos
+##  Módulo de Productos
 
 | # | Función |
 |---|---------|
@@ -98,7 +98,7 @@ MENÚ PRINCIPAL
 
 ---
 
-## 👥 Módulo de Clientes
+##  Módulo de Clientes
 
 | # | Función |
 |---|---------|
@@ -108,7 +108,7 @@ MENÚ PRINCIPAL
 | 4 | Actualizar teléfono o email |
 | 5 | Eliminar cliente |
 
-> ✅ Soporta ventas a **Consumidor Final** usando el NIT especial `CF`.
+>  Soporta ventas a **Consumidor Final** usando el NIT especial `CF`.
 
 ---
 
@@ -143,7 +143,7 @@ MENÚ PRINCIPAL
 
 ---
 
-## 📊 Módulo de Reportes
+##  Módulo de Reportes
 
 | Reporte | Descripción |
 |---------|-------------|
@@ -156,7 +156,7 @@ MENÚ PRINCIPAL
 
 ---
 
-## 🛡️ Validaciones y robustez
+##  Validaciones y robustez
 
 - Códigos de producto y NITs únicos
 - Precios y stock no pueden ser negativos
@@ -168,7 +168,7 @@ MENÚ PRINCIPAL
 
 ---
 
-## 👩‍💻 Autores
+##  Autores
 
 - **[Tu nombre]** — [tu-email@correo.com]
 - **[Nombre compañero]** — [compañero@correo.com]
@@ -176,7 +176,3 @@ MENÚ PRINCIPAL
 Proyecto Final · Programación 1 · 2026
 
 ---
-
-## 📄 Licencia
-
-Uso educativo. Libre para adaptarse a las necesidades de pequeños negocios.
